@@ -252,3 +252,69 @@ h3{margin:0 0 10px}
   .before-after{grid-template-columns:1fr}.ba-arrow{transform:rotate(90deg);text-align:center}
   .phone-stage{min-height:430px}.float-note{display:none}
 }
+
+/* ByTechFlow mobile approval photo */
+.btf-mobile-scene{
+  padding:0 0 88px;
+  background:#fff;
+}
+.mobile-scene-grid{
+  display:grid;
+  grid-template-columns:.9fr 1.1fr;
+  gap:42px;
+  align-items:center;
+  padding:34px;
+  border:1px solid #dfe8f1;
+  border-radius:24px;
+  background:linear-gradient(135deg,#f8fbff,#eef5ff);
+  box-shadow:0 18px 50px rgba(20,57,91,.08);
+}
+.mobile-scene-copy h2{
+  font-size:36px;
+  margin:8px 0 14px;
+}
+.mobile-scene-copy p{
+  color:#617385;
+  margin:0;
+}
+.mobile-scene-points{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:22px;
+}
+.mobile-scene-points span{
+  font-size:12px;
+  font-weight:800;
+  color:#315d88;
+  background:#fff;
+  border:1px solid #d8e5f0;
+  border-radius:999px;
+  padding:7px 11px;
+}
+.mobile-scene-photo{
+  margin:0;
+  overflow:hidden;
+  border-radius:18px;
+  background:#dfe8f1;
+  box-shadow:0 14px 34px rgba(20,45,70,.15);
+}
+.mobile-scene-photo img{
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+}
+.mobile-scene-photo figcaption{
+  padding:10px 14px;
+  background:#fff;
+  color:#6e8090;
+  font-size:11px;
+}
+@media(max-width:920px){
+  .mobile-scene-grid{grid-template-columns:1fr;padding:24px}
+}
+@media(max-width:600px){
+  .btf-mobile-scene{padding-bottom:62px}
+  .mobile-scene-grid{padding:18px;gap:24px;border-radius:18px}
+  .mobile-scene-copy h2{font-size:30px}
+}
