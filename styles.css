@@ -301,8 +301,10 @@ h3{margin:0 0 10px}
 }
 .mobile-scene-photo img{
   width:100%;
-  aspect-ratio:16/9;
+  aspect-ratio:800/474;
   object-fit:cover;
+  object-position:center;
+  display:block;
 }
 .mobile-scene-photo figcaption{
   padding:10px 14px;
