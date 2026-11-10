@@ -403,8 +403,5 @@ h3{margin:0 0 10px}
   white-space:nowrap;
 }
 @media(max-width:920px){
-  .btf-mobile-nav{display:block;position:sticky;top:76px;z-index:25}
-}
-@media(max-width:600px){
-  .btf-mobile-nav{top:74px}
+  .btf-mobile-nav{display:block}
 }
