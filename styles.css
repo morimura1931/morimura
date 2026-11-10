@@ -196,7 +196,7 @@ h3{margin:0 0 10px}
 .phone-card small,.phone-card span{font-size:10px;color:#7a8b9b}
 .phone-card em{font-style:normal;font-size:10px;color:#b86e00}
 .phone-card em.approved{color:#21825c}
-.phone-screen button{width:100%;border:0;background:#2f6fed;color:#fff;padding:12px;border-radius:10px;font-weight:800}
+.phone-button{width:100%;background:#2f6fed;color:#fff;padding:12px;border-radius:10px;font-weight:800;text-align:center}
 .float-note{position:absolute;background:#fff;border:1px solid #dce6ef;border-radius:10px;padding:10px 13px;box-shadow:0 12px 30px rgba(20,57,91,.12);font-size:12px;color:#31506b}
 .note-a{right:6%;top:18%}.note-b{left:3%;bottom:18%}
 .case-section{background:#f8fbff}
