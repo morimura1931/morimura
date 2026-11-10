@@ -405,3 +405,51 @@ h3{margin:0 0 10px}
 @media(max-width:920px){
   .btf-mobile-nav{display:block}
 }
+
+/* ByTechFlow portfolio note */
+#about,#features,#workflow,#case,#support,#contact{scroll-margin-top:96px}
+.portfolio-note-section{
+  padding:0 0 56px;
+  background:#fff;
+}
+.portfolio-note-head{
+  max-width:760px;
+  margin-bottom:20px;
+}
+.portfolio-note-head h2{
+  font-size:30px;
+  margin:6px 0 10px;
+}
+.portfolio-note-head p{
+  margin:0;
+  color:#647789;
+}
+.portfolio-note-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:14px;
+}
+.portfolio-note-grid>div{
+  border:1px solid #dfe8f1;
+  border-radius:16px;
+  padding:20px;
+  background:#f8fbff;
+}
+.portfolio-note-grid b{
+  display:block;
+  margin-bottom:8px;
+  color:#173b5e;
+}
+.portfolio-note-grid span{
+  color:#647789;
+  font-size:13px;
+  line-height:1.8;
+}
+@media(max-width:920px){
+  .portfolio-note-grid{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+  #about,#features,#workflow,#case,#support,#contact{scroll-margin-top:82px}
+  .portfolio-note-section{padding-bottom:42px}
+  .portfolio-note-head h2{font-size:26px}
+}
