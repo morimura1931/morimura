@@ -380,3 +380,31 @@ h3{margin:0 0 10px}
   .hero-trust{gap:10px 14px}
   .mobile-scene-photo figcaption{font-size:10px}
 }
+
+.btf-mobile-nav{display:none;background:#fff;border-bottom:1px solid var(--line)}
+.btf-mobile-nav-inner{
+  display:flex;
+  gap:8px;
+  overflow-x:auto;
+  padding-top:10px;
+  padding-bottom:10px;
+  scrollbar-width:none;
+}
+.btf-mobile-nav-inner::-webkit-scrollbar{display:none}
+.btf-mobile-nav a{
+  flex:0 0 auto;
+  padding:7px 12px;
+  border:1px solid #dfe7ef;
+  border-radius:999px;
+  color:#456077;
+  background:#fff;
+  font-size:12px;
+  font-weight:800;
+  white-space:nowrap;
+}
+@media(max-width:920px){
+  .btf-mobile-nav{display:block;position:sticky;top:76px;z-index:25}
+}
+@media(max-width:600px){
+  .btf-mobile-nav{top:74px}
+}
