@@ -507,3 +507,12 @@ h3{margin:0 0 10px}
   .portfolio-summary-card dl>div{grid-template-columns:1fr;gap:5px}
   .portfolio-cta-box{padding:28px 22px;flex-direction:column;align-items:flex-start}
 }
+
+.portfolio-back-link{
+  color:inherit;
+  font-size:12px;
+  font-weight:800;
+  text-decoration:none;
+  opacity:.82;
+}
+.portfolio-back-link:hover{opacity:1;text-decoration:underline}
