@@ -136,6 +136,13 @@ h3{margin:0 0 10px}
 .st-news-list p{margin:0;font-size:13px}
 .st-company-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:66px}
 .st-company-photo{width:100%;margin-top:22px;aspect-ratio:16/9;object-fit:cover;border:1px solid var(--line)}
+.st-company-identity{margin-top:22px;padding:28px;background:linear-gradient(145deg,#123a5c,#1d527a);color:#fff;min-height:220px;display:flex;flex-direction:column;justify-content:space-between}
+.st-company-identity>small{font-size:9px;letter-spacing:.16em;color:#9fc4df;font-weight:800}
+.st-company-identity>strong{font-size:28px;line-height:1.45;letter-spacing:.02em}
+.st-company-identity>div{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;border-top:1px solid rgba(255,255,255,.18);padding-top:16px}
+.st-company-identity span{display:flex;flex-direction:column;gap:3px}
+.st-company-identity b{font-size:13px}
+.st-company-identity em{font-style:normal;font-size:9px;color:#bcd2e2}
 .st-contact-section{padding:0 0 70px}
 .st-contact-box{background:linear-gradient(120deg,#153b5d,#2f78ad);padding:36px 42px;color:#fff;display:flex;justify-content:space-between;gap:30px;align-items:center}
 .st-contact-box h2{color:#fff;margin:5px 0 7px}
@@ -259,6 +266,7 @@ h3{margin:0 0 10px}
   .st-logo-mark{width:42px;height:42px}.st-logo-text strong{font-size:14px}.st-logo-text small{font-size:9px}
   .st-hero{padding-top:52px}.st-hero h1{font-size:46px}
   .st-quick-grid,.value-strip-inner{grid-template-columns:1fr}
+  .st-company-identity>div{grid-template-columns:1fr}
   .st-case-stats,.case-metrics{grid-template-columns:1fr}
   .st-news-list>div{grid-template-columns:84px 52px 1fr;gap:8px}
   .st-contact-box,.btf-cta-box{padding:28px 22px;flex-direction:column;align-items:flex-start}
